@@ -1,5 +1,6 @@
 package tests;
 
+
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -74,6 +75,6 @@ public class TextBoxOther {
         $(".table-responsive").$(byText("Picture")).parent().shouldHave(text(photoName));
         $(".table-responsive").$(byText("Address")).parent().shouldHave(text(address));
         $(".table-responsive").$(byText("State and City")).parent().shouldHave(text(state+" "+city));
-            }
+    }
 
 }

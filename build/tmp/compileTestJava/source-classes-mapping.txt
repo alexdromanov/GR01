@@ -1,5 +1,9 @@
+pages/HomePageFuker.java
+ pages.HomePageFuker
 docs/CssXpathExamples.java
  docs.CssXpathExamples
+pages/HomePage.java
+ pages.HomePage
 tests/TextBoxTests.java
  tests.TextBoxTests
 docs/Junit5Examples.java
